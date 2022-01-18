@@ -1,0 +1,216 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.display-sec{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+.header{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    
+}
+.header div{
+    display: inline-block;
+    margin: 10px auto;
+}
+.header div .nav{
+    display: inline-block;
+}
+.header div .nav a{
+    text-decoration: none;
+    margin: 0 7px;
+    color: #000000;
+} 
+.header div .nav a.active{
+    border-bottom: 2px solid #000000;
+} 
+.header .logo{
+    margin: 0 16%;
+}
+#logo-img{
+    width: 86px;
+    height: 30px;
+}
+.main-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    padding:  0 10%;
+}
+
+.main-section .furn-title .finest-title{
+    font-size: 50px;
+    font-family: 'Heebo', sans-serif;
+    line-height: 50px;
+}
+.main-section .furn-details{
+    align-self: center;
+}
+.main-section .furn-details table{
+    border-collapse: separate;
+    border-spacing: 2px 10px;
+}
+.main-section .furn-img{
+    align-self: center;
+    position: relative;
+}
+
+.main-section .furn-img img{
+    width: 430px;
+    height: 550px;
+}
+.main-section .furn-title .btn-links div.shop-now{
+    height: fit-content;
+    height: -moz-fit-content;
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 10px 20px;  
+    background-color: #000000;
+    border-radius: 20px;
+    color: #ffffff;  
+}
+.main-section .furn-title .btn-links div{
+    display: inline-block; 
+    cursor: pointer;
+}
+.main-section .furn-title .btn-links div.watch-video{
+    display: inline-block; 
+    margin: 0 20px;
+} 
+.welcome{
+    width: 60%;
+    height: fit-content;
+    height: -moz-fit-content;
+    margin: 10% auto;
+    text-align: center;
+
+}
+.welcome h3{
+  letter-spacing: 5px;
+}
+
+.items{
+    width: 60%;
+    height: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+.items .item-container {
+    margin: 5% auto;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    cursor: pointer;
+    background-color: lightgray;
+    transition: all linear .5s;
+}
+.items .item-container:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,.4);
+}
+
+.items .item-container img{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.items .item-container p.name{
+    position: absolute;
+    left: 5;
+    top: 0;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 10px;
+}
+.items .item-container p.origin{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+    margin: 10px 10px;
+}
+.items .item-container p.b-collection{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 12px;
+    margin: 10px 10px;
+}
+.items .item-container p.wow{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 12px;
+    margin: 10px 10px;
+}
+/* SIDE CONTAINER */
+.items .side-container {
+    margin: 0 auto;
+    position: relative;
+    background-color: #ffffff;
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.items .side-container img{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.items .side-container p.name{
+    position: absolute;
+    left: 5;
+    top: 0;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 5px 5px;
+}
+.items .side-container p.origin{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 10px;
+    margin: 5px 5px;
+}
+.items .side-container p.b-collection{
+    position: absolute;
+    left: 5;
+    bottom: 0;
+    font-size: 8px;
+    font-size: 10px;
+    margin: 5px 5px;
+}
+.items .side-container p.wow{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 10px;
+    margin: 5px 5px;
+}
+
